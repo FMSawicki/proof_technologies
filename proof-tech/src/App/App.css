@@ -1,0 +1,22 @@
+.App {
+  box-sizing: border-box;
+  text-align: left;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+}
+.companyName {
+  
+}
+.App-link {
+  color: #61dafb;
+}
