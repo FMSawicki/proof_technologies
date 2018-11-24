@@ -19,7 +19,7 @@ class App extends Component {
             <li>Contact</li>
           </ul>
         </header>
-        <Services />
+        <Landing />
       </div>
     );
   }
