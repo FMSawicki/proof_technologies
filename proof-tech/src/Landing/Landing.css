@@ -1,0 +1,14 @@
+.body {
+    margin: 200px;
+    display: inline-flex;
+}
+
+#landingImg {
+    height: 300px;
+    width: 800px;
+    border: black solid 1px;
+}
+
+.landingText {
+    flex-direction: column;
+}
