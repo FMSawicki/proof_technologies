@@ -35,31 +35,34 @@ class Contact extends Component {
         </p>
         <div className="divider" />
         <form id="contactForm">
-          <div id="col1">
-            <h4 className="contactPrompt">Name</h4>
-            <input onChange={this.onChangeName} type="text" cols="50" />
-            <h4 className="contactPrompt">Company</h4>
-            <input onChange={this.onChangeCompany} type="text" />
-          </div>
-
-          <div id="col2">
-            <h4 className="contactPrompt">Email</h4>
-            <input onChange={this.onChangeEmail} type="email" />
-            <h4 className="contactPrompt">Phone</h4>
-            <input onChange={this.onChangePhone} type="number" min="10" />
-          </div>
-
           <div id="colDiv">
-            <h4 className="contactPrompt">Message</h4>
-            <textarea
-              id="message"
-              onChange={this.onChangeMessage}
-              type="text"
-              cols="30"
-              rows="3"
-            />
-            <input type="button" value="submit" /> */}
+            <div id="col1">
+              <h4 className="contactPrompt">Name:</h4>
+              <input onChange={this.onChangeName} type="text" cols="50" />
+              <h4 className="contactPrompt">Company:</h4>
+              <input onChange={this.onChangeCompany} type="text" />
+            </div>
+
+            <div id="col2">
+              <h4 className="contactPrompt">Email:</h4>
+              <input onChange={this.onChangeEmail} type="email" />
+              <h4 className="contactPrompt">Phone:</h4>
+              <input onChange={this.onChangePhone} type="number" min="10" />
+            </div>
           </div>
+          {/* <div id="formBottom"> */}
+          <h4 id="messagePrompt" className="contactPrompt">
+            Message:
+          </h4>
+          <textarea
+            id="message"
+            onChange={this.onChangeMessage}
+            type="text"
+            cols="95"
+            rows="10"
+          />
+          <input id="formSubmit" type="button" value="Submit" onClick={""} />
+          {/* </div> */}
         </form>
       </div>
     );

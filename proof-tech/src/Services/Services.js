@@ -5,7 +5,7 @@ class Services extends Component {
   render() {
     return (
       <div className="mainCom">
-        <h2 className="subHeader">Available Services:</h2>
+        <h2 className="subHeader">Available Services</h2>
         <ul>
           <li className="mainItem">
             <h4 className="subHeader">Migration to cloud</h4>

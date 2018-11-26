@@ -1,12 +1,17 @@
 #contactForm {
     height: 500px;
     width: 600px;
-    background-color: red;
+    color: rgb(182, 210, 252);
+    background-color: rgba(40,44,52, .6);
+    border: rgba(105, 126, 241, 1) solid 5px;
+    border-style: inset;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     justify-content: space-around;
-
+    flex-direction: column;
+    position: relative;
 }
 
 #contactHeader {
@@ -16,17 +21,21 @@
     /* width: 500; */
 }
 #contactPrompt {
-    font-size: 15px;
+    /* font-size: 15px; */
+
     /* align-self: center; */
     /* background-color: green; */
 }
 #colDiv {
+    display: inline-flex;
     justify-content: space-around;
-    background-color: black;
-  
+    margin-left: 60px;
+    /* background-color: black; */
+    /* margin-bottom: auto; */
+    /* bottom: 0; */
 }
 #col1 {
-    background-color: blue;
+    /* background-color: blue; */
     width: 250px;
     height: 200px;
     /* flex-direction: column; */
@@ -34,7 +43,7 @@
     /* justify-content: flex-start; */
 }
 #col2 {
-    background-color: purple;
+    /* background-color: purple; */
     width: 250px;
     height: 200px;
     /* right: 0; */
@@ -44,3 +53,40 @@
     /* float: top; */
     /* justify-content: flex-end; */
 }
+#formBottom {
+    background-color: green;
+    /* margin-top: -20px; */
+    /* flex-direction: column; */
+    /* align-content: space-around; */
+    /* margin-right: auto; */
+    /* bottom: 0; */
+}
+
+#message {
+    margin-right: auto;
+    margin-left: auto;
+    border: rgb(182, 210, 252) solid 3px;
+    border-style: outset;
+}
+#messagePrompt {
+    margin-left: 25px;
+}
+input {
+    font-size: 15px;
+    border: rgb(182, 210, 252) solid 3px;
+    border-style: outset;
+
+}
+#formSubmit{
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#formSubmit:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    /* border-radius: 25%; */
+}
+ 
