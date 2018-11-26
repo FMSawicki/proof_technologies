@@ -1,0 +1,46 @@
+#contactForm {
+    height: 500px;
+    width: 600px;
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#contactHeader {
+    /* margin-left: 150px; */
+}
+#contactItem {
+    /* width: 500; */
+}
+#contactPrompt {
+    font-size: 15px;
+    /* align-self: center; */
+    /* background-color: green; */
+}
+#colDiv {
+    justify-content: space-around;
+    background-color: black;
+  
+}
+#col1 {
+    background-color: blue;
+    width: 250px;
+    height: 200px;
+    /* flex-direction: column; */
+    /* margin-left: 20px; */
+    /* justify-content: flex-start; */
+}
+#col2 {
+    background-color: purple;
+    width: 250px;
+    height: 200px;
+    /* right: 0; */
+    /* flex-direction: column; */
+    /* float: right; */
+    /* margin-top: -200; */
+    /* float: top; */
+    /* justify-content: flex-end; */
+}

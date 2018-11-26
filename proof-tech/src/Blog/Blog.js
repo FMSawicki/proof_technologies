@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import "blog.css";
+import "./Blog.css";
 
 class Blog extends Component {
   render() {
     return (
-      <div>
-        <h2>A Tech Blog</h2>
+      <div className="mainCom">
+        <h2 className="subHeader">A Tech Blog</h2>
       </div>
     );
   }
 }
+
+export default Blog;

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import logo from "./proof-logo.png";
+import Navbar from "../Navbar/Navbar";
+import About from "../About/About";
+import Blog from "../Blog/Blog";
+import Contact from "../Contact/Contact";
 import Landing from "../Landing/Landing";
 import Services from "../Services/Services";
 
@@ -10,16 +13,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <img id="logo" src="logo" alt="logo" /> */}
-          <h1 className="companyName">Proof Technologies LLC</h1>
-          <ul className="routeLinks">
-            <li>About</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact</li>
-          </ul>
+          <Navbar />
         </header>
-        <Landing />
+        <main>
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/services" component={Services} />
+          </Switch>
+        </main>
       </div>
     );
   }
