@@ -1,0 +1,30 @@
+.body {
+    margin: 200px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* #landingImg {
+    height: 300px;
+    width: 300px;
+    border: black solid 1px;
+    align-self: center;
+} */
+
+.landingText {
+    flex-direction: column;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.landingHead {
+    color: #6e8de0;
+}
+.description {
+    color: #282c34;
+}
+.companyName {
+    margin-left: 20px;
+    color: #282c34;
+    /* flex-direction: column; */
+  }
