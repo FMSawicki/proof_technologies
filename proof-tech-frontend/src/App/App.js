@@ -19,15 +19,17 @@ class App extends Component {
           <Navbar />
         </header>
         {/* Navbar is static subcomponent in App */}
+        <div className="divider" />
+
         <main>
-          <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/contacted" compponent={Contacted} />
-            <Route exact path="/services" component={Services} />
-          </Switch>
+          {/* <Switch> */}
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contacted" compponent={Contacted} />
+          <Route exact path="/services" component={Services} />
+          {/* </Switch> */}
         </main>
       </div>
     );

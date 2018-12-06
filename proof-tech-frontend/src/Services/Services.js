@@ -6,9 +6,10 @@ class Services extends Component {
     // let page = this.props.location.pathname.substr(1);
     // if (!page) page = "home";
     return (
-      <div className="mainCom">
-        <h2 className="subHeader">Available Services</h2>
-        {/* <ul>
+      <div className="servicesMain">
+        <h2 className="servicesHeader">Available Services</h2>
+        <div className="divider" />
+        <ul>
           <li className="mainItem">
             <h4 className="subHeader">Migration to cloud</h4>
             <p>
@@ -44,7 +45,7 @@ class Services extends Component {
             </p>
           </li>
           <div className="divider" />
-        </ul> */}
+        </ul>
       </div>
     );
   }

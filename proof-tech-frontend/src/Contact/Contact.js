@@ -18,7 +18,7 @@ class Contact extends Component {
   //onChange functions will update contact information state by the keystroke. onClick function tied to submit button will trigger email, sending snapshot of contact info states in said email.
   render() {
     return (
-      <div className="mainCom">
+      <div className="mainCom" id="mainContact">
         <h2 id="contactHeader" className="subHeader">
           Contact Us
         </h2>

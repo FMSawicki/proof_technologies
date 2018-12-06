@@ -6,7 +6,7 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className="navBar">
         <ul className="routeLinks">
           <li>
             <NavLink to="/">
@@ -20,11 +20,11 @@ class Navbar extends Component {
                 About
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="services" activeStyle={{ color: "white" }}>
                 Services
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="contact" activeStyle={{ color: "white" }}>
                 Contact
@@ -35,6 +35,9 @@ class Navbar extends Component {
                 Blog
               </NavLink>
             </li>
+            {/* <li>
+              <a href="#linkedin">LinkedIn</a>
+            </li> */}
           </div>
         </ul>
       </div>

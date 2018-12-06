@@ -1,7 +1,17 @@
+.landing {
+    background-image: url("temp.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
 .body {
+
     margin: 200px;
     display: inline-flex;
     align-items: center;
+    background-color: rgba(54, 54, 54, .5);
+    background: linear-gradient(90deg,rgba(54, 54, 54, .5), rgba(54,54,54, 0));
+    /* border-radius: 20%; */
 }
 
 /* #landingImg {
@@ -18,13 +28,13 @@
 }
 
 .landingHead {
-    color: #6e8de0;
+    color: #ffffff;
 }
 .description {
-    color: #282c34;
+    color: #ffffff;
 }
 .companyName {
     margin-left: 20px;
-    color: #282c34;
+    color: #ffffff;
     /* flex-direction: column; */
   }

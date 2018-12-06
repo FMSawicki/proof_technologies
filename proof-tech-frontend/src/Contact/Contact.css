@@ -3,6 +3,7 @@
     width: 600px;
     color: rgb(182, 210, 252);
     background-color: rgba(40,44,52, .6);
+    
     border: rgba(105, 126, 241, 1) solid 5px;
     /* border-style: inset; */
     margin-top: 20px;
@@ -13,7 +14,10 @@
     flex-direction: column;
     position: relative;
 }
-
+#mainContact {
+    /* background-image: url("contactPic.jpg");
+    background-size: 100%; */
+}
 #contactHeader {
     /* margin-left: 150px; */
 }
