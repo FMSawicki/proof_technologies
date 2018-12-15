@@ -1,5 +1,5 @@
 .landing {
-    background-image: url("temp.jpg");
+    background-image: url("connected.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -9,8 +9,8 @@
     margin: 200px;
     display: inline-flex;
     align-items: center;
-    background-color: rgba(54, 54, 54, .5);
-    background: linear-gradient(90deg,rgba(54, 54, 54, .5), rgba(54,54,54, 0));
+    background-color: rgba(54, 54, 54, .2);
+    /* background: linear-gradient(90deg,rgba(54, 54, 54, .5), rgba(54,54,54, 0)); */
     /* border-radius: 20%; */
 }
 

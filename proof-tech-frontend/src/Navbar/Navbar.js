@@ -9,9 +9,7 @@ class Navbar extends Component {
       <div className="navBar">
         <ul className="routeLinks">
           <li>
-            <NavLink to="/">
-              <img id="logo" src="" alt="logo" />
-            </NavLink>
+            <NavLink to="/">Proof Technology</NavLink>
           </li>
           {/* Logo picture will be NavLink  for Landing component */}
           <div className="navLinks">

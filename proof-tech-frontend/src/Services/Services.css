@@ -1,8 +1,116 @@
 .servicesHeader {
     color: #6e8de0;
     text-align: center;
+    margin-top: 30px;
 }
-
+.serHead {
+    color: #6e8de0;
+}
 .servicesMain {
     margin-top: 30px;
 }
+
+.grid-container {
+    text-align: center;
+    /* padding: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 900px;
+    display: grid;
+    /* position: absolute; */
+    /* background-color: red; */
+    /* grid-column-gap: 50px; */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    /* border: black solid 1px;
+    border-radius: 50%; */
+
+  /* grid-template-columns:  25%  auto  25% ;
+  grid-template-rows: 25% auto 25%; */
+
+  }
+
+  .grid-item {
+    /* background-color: rgba(135, 206, 235, .5); */
+    display: block;
+      margin: 50px;
+      padding: 20px;
+      width: 200px;
+      height: 200px;
+      /* background-color: lightblue; */
+      /* display: flex; */
+      
+  }
+
+
+  .serHead {
+    font-size: 15px;
+  }
+h2.serHead {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.viewport {
+    /* background-color: rgba(135, 206, 235, .5); */
+    /* border: solid black 1px; */
+    /* border-radius: 50%; */
+    /* width: 300px; */
+    font-family: 'Rubik', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    transition: all 1s ease-in-out;
+    /* margin-top: -5px; */
+    width: 300px;
+    height: 300px;
+    /* position: fixed; */
+}
+.icon {
+      /* align-content: center; */
+      /* box-shadow: 0 0 0 3rem rgba(135, 206, 235, .5); */
+      margin: 15px;
+      width: 125px;
+      height: 125px;
+      padding: 5px;
+      /* border-radius: 50%; */
+      /* border: solid black 2px; */
+      
+      /* margin-left: auto;
+      margin-right: auto; */
+      /* background-color: blue; */
+  }
+
+  .ServiceSubMain {
+      text-align: center;
+      display: inline-flex;
+      justify-content: center;
+      margin-top: -20px;
+      /* padding-top: -30px; */
+      /* border: black solid 1px; */
+      width: 100%;
+      
+  }
+  
+  .ServiceSubSect {
+      width: 300px;
+      height: 200px;
+      margin: 3%;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+  }
+  .subImg {
+    /* border: black solid 1px; */
+    width: 250px;
+    height: 150px;
+}
+  /* button {
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+} */

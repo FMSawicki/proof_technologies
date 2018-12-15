@@ -7,7 +7,7 @@ class Landing extends Component {
       <div>
         <div className="landing">
           <div className="body">
-            <h1 className="companyName">
+            {/* <h1 className="companyName">
               Proof
               <br /> Technology <br /> LLC
             </h1>
@@ -19,8 +19,7 @@ class Landing extends Component {
                 primarily in law, it can be applied more broadly to any
                 situation in which a contentious dispute arises.
               </p>
-            </div>
-            {/* <img id="landingImg" src="#" alt="picture" /> */}
+            </div> */}
           </div>
         </div>
         <Services />

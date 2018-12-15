@@ -62,7 +62,7 @@ class Contact extends Component {
             id="message"
             onChange={this.onChange}
             type="text"
-            cols="95"
+            cols="50"
             rows="10"
             name="message"
           />
