@@ -95,14 +95,14 @@ class Services extends Component {
   render() {
     let viewText;
     if (this.state.default === true) {
-      viewText = "Click a service for more details!";
+      viewText = "Hover over a service for more details!";
     }
     if (this.state.network === true) {
       viewText =
         "Communication and productivity go hand and hand and Proof Technology knows that. That’s why we believe in a providing a network that communicates quickly and securely. Our networks are designed around speed, security, and wireless access.";
     }
     if (this.state.eut === true) {
-      viewText = `"Your only as strong as your weakest link.". This statement originating in 1786 could not be more true today. 92% of malware is delivered via email these days. Unfortunately your spam filters can not catch EVERY single one of these. This is when your employees come in to play. These fake emails look very good these days. 14 billion malicious emails are sent out daily - and with this many sent out, they are successful. Proof Technology can help ensure your employees make conscious computer decisions.`;
+      viewText = `92% of malware is delivered via email these days. Unfortunately your spam filters can not catch every single one of these. 14 billion malicious emails are sent out daily - and with this many sent out, they are successful. Proof Technology can help ensure your employees make conscious computer decisions.`;
     }
     if (this.state.bdr === true) {
       viewText = `Work productivity generates data and data provides revenue. Make sure your data and servers are safe and recoverable in the event of a disaster. Proof Technology believes in not only backing up your data but also doing "disaster tests" on our end to ensure that your equipment is recoverable in a speedy manner. `;
@@ -135,61 +135,56 @@ class Services extends Component {
         </h2>
 
         <div className="grid-container">
-          <div className="mainItem grid-item">
-            <img className="icon" src={networkIcon} alt="icon" />
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img className="icon" name="network" src={networkIcon} alt="icon" />
 
-            <button onClick={this.onClick} name="network" className="serHead">
-              Network & Wifi
-            </button>
+            <p className="serHead">Network & Wifi</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={cloudIcon} alt="icon" />
-            <button className="serHead" name="cloud" onClick={this.onClick}>
-              Cloud Technologies
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img className="icon" name="cloud" src={cloudIcon} alt="icon" />
+            <p className="serHead">Cloud Technologies</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={identityIcon} alt="icon" />
-            <button onClick={this.onClick} name="identity" className="serHead">
-              Proof Identity Management
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img
+              className="icon"
+              name="identity"
+              src={identityIcon}
+              alt="icon"
+            />
+            <p className="serHead">Proof Identity Management</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={bdrIcon} alt="icon" />
-            <button onClick={this.onClick} name="bdr" className="serHead">
-              BDR
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img className="icon" name="bdr" src={bdrIcon} alt="icon" />
+            <p className="serHead">BDR</p>
           </div>
           <div className="mainItem grid-item viewport">
             <p className="serText">{viewText}</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={securityIcon} alt="icon" />
-            <button onClick={this.onClick} name="security" className="serHead">
-              Security Audits and Remediation
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img
+              className="icon"
+              name="security"
+              src={securityIcon}
+              alt="icon"
+            />
+            <p className="serHead">Security Audits and Remediation</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={eutIcon} alt="icon" />
-            <button onClick={this.onClick} name="eut" className="serHead">
-              End User Training
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img className="icon" name="eut" src={eutIcon} alt="icon" />
+            <p className="serHead">End User Training</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={consultingIcon} alt="icon" />
-            <button
-              onClick={this.onClick}
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img
+              className="icon"
               name="consulting"
-              className="serHead"
-            >
-              Consulting
-            </button>
+              src={consultingIcon}
+              alt="icon"
+            />
+            <p className="serHead">Consulting</p>
           </div>
-          <div className="mainItem grid-item">
-            <img className="icon" src={emailIcon} alt="icon" />
-            <button onClick={this.onClick} name="email" className="serHead">
-              Email
-            </button>
+          <div className="mainItem grid-item" onMouseOver={this.onClick}>
+            <img className="icon" name="email" src={emailIcon} alt="icon" />
+            <p className="serHead">Email</p>
           </div>
         </div>
       </div>
